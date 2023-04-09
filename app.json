@@ -12,10 +12,11 @@
   ],
   "success_url": "/console",
   "website": "https://hasura.io",
-  "repository": "https://github.com/hasura/graphql-engine-heroku",
+  "repository": "https://github.com/btroia/graphql-engine-heroku",
   "formation": {
     "web": {
-      "quantity": 1
+      "quantity": 1,
+      "size": "basic"
     }
   },
   "stack": "container",
